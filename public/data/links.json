@@ -1,0 +1,243 @@
+{
+  "status": "success",
+  "code": 200,
+  "message": "링크 목록을 성공적으로 조회했어요",
+  "meta": {
+    "totalCount": 12,
+    "categories": [
+      { "key": "all", "label": "전체", "count": 12 },
+      { "key": "project", "label": "프로젝트", "count": 3 },
+      { "key": "career", "label": "이력서·경력", "count": 2 },
+      { "key": "social", "label": "소셜·채널", "count": 3 },
+      { "key": "article", "label": "글·아티클", "count": 2 },
+      { "key": "contact", "label": "연락처", "count": 2 }
+    ]
+  },
+  "data": [
+    {
+      "id": "link-01",
+      "title": "MyLink 프로필 서비스",
+      "description": "Next.js 16과 토스 디자인 시스템(TDS) 기반으로 제작한 프로필 링크 서비스예요.",
+      "url": "https://github.com/example/mylink",
+      "category": "project",
+      "categoryLabel": "프로젝트",
+      "emoji": "🔗",
+      "badge": {
+        "text": "대표작",
+        "variant": "primary"
+      },
+      "tags": ["Next.js 16", "React 19", "Tailwind CSS"],
+      "isHighlighted": true,
+      "clicks": 1420,
+      "order": 1,
+      "openInNewTab": true,
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-03-01T14:20:00.000Z"
+    },
+    {
+      "id": "link-02",
+      "title": "AI 바이브 코딩 플레이그라운드",
+      "description": "LLM 에이전트와 페어 프로그래밍하여 아이디어를 신속하게 제품화하는 실험 공간이에요.",
+      "url": "https://vibe-coding-demo.example.com",
+      "category": "project",
+      "categoryLabel": "프로젝트",
+      "emoji": "⚡",
+      "badge": {
+        "text": "NEW",
+        "variant": "accent"
+      },
+      "tags": ["AI Agent", "Gemini API", "Fullstack"],
+      "isHighlighted": false,
+      "clicks": 865,
+      "order": 2,
+      "openInNewTab": true,
+      "createdAt": "2026-02-10T10:30:00.000Z",
+      "updatedAt": "2026-02-28T18:10:00.000Z"
+    },
+    {
+      "id": "link-03",
+      "title": "기술 면접 질문 Q&A 아카이브",
+      "description": "프론트엔드·CS 핵심 기술 면접 질문과 모범 답변을 정리한 웹 서비스예요.",
+      "url": "https://interview-prep.example.com",
+      "category": "project",
+      "categoryLabel": "프로젝트",
+      "emoji": "💡",
+      "badge": null,
+      "tags": ["React", "TypeScript", "CS지식"],
+      "isHighlighted": false,
+      "clicks": 630,
+      "order": 3,
+      "openInNewTab": true,
+      "createdAt": "2026-01-05T14:00:00.000Z",
+      "updatedAt": "2026-02-15T11:00:00.000Z"
+    },
+    {
+      "id": "link-04",
+      "title": "온라인 이력서 (Notion)",
+      "description": "진행한 프로젝트 상세 내용과 문제 해결 과정, 기술 스택을 정리해 뒀어요.",
+      "url": "https://notion.so/example/resume-2026",
+      "category": "career",
+      "categoryLabel": "이력서·경력",
+      "emoji": "📄",
+      "badge": {
+        "text": "상시 업데이트",
+        "variant": "secondary"
+      },
+      "tags": ["이력서", "포트폴리오", "경력기술서"],
+      "isHighlighted": true,
+      "clicks": 2150,
+      "order": 4,
+      "openInNewTab": true,
+      "createdAt": "2025-12-01T08:00:00.000Z",
+      "updatedAt": "2026-03-05T09:30:00.000Z"
+    },
+    {
+      "id": "link-05",
+      "title": "LinkedIn 프로필",
+      "description": "경력 사항과 학력, 자격 증명 및 추천서를 확인할 수 있어요.",
+      "url": "https://linkedin.com/in/example-developer",
+      "category": "career",
+      "categoryLabel": "이력서·경력",
+      "emoji": "💼",
+      "badge": null,
+      "tags": ["커리어", "네트워킹"],
+      "isHighlighted": false,
+      "clicks": 412,
+      "order": 5,
+      "openInNewTab": true,
+      "createdAt": "2025-11-20T13:00:00.000Z",
+      "updatedAt": "2026-01-10T15:00:00.000Z"
+    },
+    {
+      "id": "link-06",
+      "title": "GitHub 저장소",
+      "description": "오픈소스 기여 내역과 일일 커밋, 개인 레포지토리를 둘러보실 수 있어요.",
+      "url": "https://github.com/example",
+      "category": "social",
+      "categoryLabel": "소셜·채널",
+      "emoji": "🐙",
+      "badge": {
+        "text": "300+ Commits",
+        "variant": "secondary"
+      },
+      "tags": ["오픈소스", "코드베이스"],
+      "isHighlighted": false,
+      "clicks": 1890,
+      "order": 6,
+      "openInNewTab": true,
+      "createdAt": "2025-10-15T09:00:00.000Z",
+      "updatedAt": "2026-03-08T20:00:00.000Z"
+    },
+    {
+      "id": "link-07",
+      "title": "개발 기술 블로그 (Velog)",
+      "description": "프로젝트를 진행하며 겪은 트러블슈팅과 프론트엔드 최적화 경험을 기록해요.",
+      "url": "https://velog.io/@example",
+      "category": "social",
+      "categoryLabel": "소셜·채널",
+      "emoji": "✍️",
+      "badge": {
+        "text": "구독 1.2k",
+        "variant": "secondary"
+      },
+      "tags": ["기술블로그", "트러블슈팅", "회고"],
+      "isHighlighted": false,
+      "clicks": 3410,
+      "order": 7,
+      "openInNewTab": true,
+      "createdAt": "2025-09-01T10:00:00.000Z",
+      "updatedAt": "2026-03-02T16:00:00.000Z"
+    },
+    {
+      "id": "link-08",
+      "title": "X (Twitter) 테크 계정",
+      "description": "최신 웹 기술 트렌드와 프론트엔드 아티클 요약을 비정기적으로 공유해요.",
+      "url": "https://x.com/example_dev",
+      "category": "social",
+      "categoryLabel": "소셜·채널",
+      "emoji": "🐦",
+      "badge": null,
+      "tags": ["트위터", "기술인사이트"],
+      "isHighlighted": false,
+      "clicks": 295,
+      "order": 8,
+      "openInNewTab": true,
+      "createdAt": "2026-01-20T17:00:00.000Z",
+      "updatedAt": "2026-02-20T12:00:00.000Z"
+    },
+    {
+      "id": "link-09",
+      "title": "[인기글] Next.js 서버 컴포넌트 렌더링 최적화 가이드",
+      "description": "RSC와 스트리밍 SSR을 활용해 LCP 성능을 40% 개선한 실전 기록이에요.",
+      "url": "https://velog.io/@example/nextjs-rsc-optimization",
+      "category": "article",
+      "categoryLabel": "글·아티클",
+      "emoji": "🚀",
+      "badge": {
+        "text": "조회수 1.5만",
+        "variant": "accent"
+      },
+      "tags": ["Next.js", "성능최적화", "RSC"],
+      "isHighlighted": false,
+      "clicks": 1540,
+      "order": 9,
+      "openInNewTab": true,
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "updatedAt": "2026-02-05T11:00:00.000Z"
+    },
+    {
+      "id": "link-10",
+      "title": "[회고] 비전공자에서 풀스택 개발자로 성장하기까지 1년의 기록",
+      "description": "몰입과 시행착오를 통해 개발 문화를 배우고 프로덕트를 출시한 과정이에요.",
+      "url": "https://velog.io/@example/developer-growth-retrospective",
+      "category": "article",
+      "categoryLabel": "글·아티클",
+      "emoji": "🌱",
+      "badge": null,
+      "tags": ["성장기록", "회고"],
+      "isHighlighted": false,
+      "clicks": 980,
+      "order": 10,
+      "openInNewTab": true,
+      "createdAt": "2026-01-01T09:00:00.000Z",
+      "updatedAt": "2026-01-01T09:00:00.000Z"
+    },
+    {
+      "id": "link-11",
+      "title": "1:1 커피챗 신청하기 (Coffeechat)",
+      "description": "가벼운 직무 질문, 협업 제안, 네트워킹은 언제든 편하게 신청해주세요.",
+      "url": "https://coffeechat.example.com",
+      "category": "contact",
+      "categoryLabel": "연락처",
+      "emoji": "☕",
+      "badge": {
+        "text": "환영해요",
+        "variant": "primary"
+      },
+      "tags": ["커피챗", "네트워킹", "멘토링"],
+      "isHighlighted": true,
+      "clicks": 720,
+      "order": 11,
+      "openInNewTab": true,
+      "createdAt": "2026-01-10T15:00:00.000Z",
+      "updatedAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "id": "link-12",
+      "title": "카카오톡 1:1 오픈채팅",
+      "description": "프로젝트 외주 문의나 빠른 피드백은 오픈채팅으로 바로 남겨주세요.",
+      "url": "https://open.kakao.com/o/example",
+      "category": "contact",
+      "categoryLabel": "연락처",
+      "emoji": "💬",
+      "badge": null,
+      "tags": ["실시간문의", "채팅"],
+      "isHighlighted": false,
+      "clicks": 510,
+      "order": 12,
+      "openInNewTab": true,
+      "createdAt": "2026-01-10T15:30:00.000Z",
+      "updatedAt": "2026-02-15T08:00:00.000Z"
+    }
+  ]
+}
